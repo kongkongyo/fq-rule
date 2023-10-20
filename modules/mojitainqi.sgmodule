@@ -1,4 +1,4 @@
-#!name=墨迹天气-k
+#!name=墨迹天气
 
 #!desc=墨迹天气会员解锁
 
@@ -11,7 +11,7 @@
 #************************************#
 # 墨迹天气
 # hostname = *.api.moji.com
-墨迹天气 = type=http-response,pattern=^https?:\/\/.*\.api\.moji\.com\/(sns\/json\/profile\/get_info_.+|json\/member_new\/homepage_info.+|user\/personal\/json\/profile_.+|flycard\/novice|shortvideo\/.+),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/mojitianqi.js
+墨迹天气-k = type=http-response,pattern=^https?:\/\/.*\.api\.moji\.com\/(sns\/json\/profile\/get_info_.+|json\/member_new\/homepage_info.+|user\/personal\/json\/profile_.+|flycard\/novice|shortvideo\/.+),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/mojitianqi.js
 
 [MITM]
 

@@ -1,0 +1,12 @@
+#!name=K-挖财记账
+#!desc=挖财记账解锁会员
+#!homepage=https://github.com/chxm1023/Script_X
+#!author=chxm1023
+[Script]
+#************************************#
+# 挖财记账
+# hostname = jz.wacai.com
+挖财记账 = type=http-response,pattern=^https?:\/\/jz\.wacai\.com,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/wacaijizhang.js
+
+[MITM]
+hostname = %APPEND% jz.wacai.com

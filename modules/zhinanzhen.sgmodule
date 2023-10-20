@@ -6,6 +6,7 @@
 #!manual=https://github.com/VirgilClyne/iRingo/wiki/📍定位服务
 #!icon=https://images.macrumors.com/article-new/2019/07/ios_location_services-250x250.jpg
 
+[Script]
 #[rewrite_local]
 # 🗺️ Network Defaults
 1 = type=http-response,pattern=^https?:\/\/configuration\.ls\.apple\.com\/config\/defaults(\?.*)?$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
@@ -17,5 +18,6 @@
 # 🗺️ Resource Manifest
 5 = type=http-response,pattern=^https?:\/\/gspe35-ssl\.ls\.apple\.(com|cn)\/geo_manifest\/dynamic\/config(\?.*)?$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
 
+[MITM]
 #[mitm]
 hostname = %APPEND% configuration.ls.apple.com, gspe1-ssl.ls.apple.com, gspe12-ssl.ls.apple.com, gspe12-cn-ssl.ls.apple.com, gspe19-ssl.ls.apple.com, gspe19-cn-ssl.ls.apple.com, gspe35-ssl.ls.apple.com, gsp-ssl.ls.apple.com, direction2.is.autonavi.com, dispatcher.is.autonavi.com, rap.is.autonavi.com, sundew.ls.apple.com

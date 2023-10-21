@@ -1,11 +1,14 @@
 #!name=K-iTunes
 #!desc=iTunes解锁系列
+
 #!homepage=https://github.com/chxm1023/Script_X
 #!author=chxm1023
+
 [Script]
 #************************************#
 # iTunes解锁系列
 # hostname = buy.itunes.apple.com
 iTunes = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes.js
+
 [MITM]
 hostname = %APPEND% buy.itunes.apple.com

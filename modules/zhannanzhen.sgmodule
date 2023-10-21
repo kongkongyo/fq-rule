@@ -1,6 +1,8 @@
 #!name=K-指南针显示经纬度
-#!desc=解锁阉割
-#取用：https://github.com/WordlessEcho/iRingo
+#!desc=解锁国行版阉割
+
+#参考取用：https://github.com/WordlessEcho/iRingo
+
 [URL Rewrite]
 # Redirect Apple Maps to US
 (^https?:\/\/gspe\d*-ssl\.ls\.apple\.)(com|cn)(\/.*)(country_code=[A-Z]{2})(.*) $1$2$3country_code=US$5 header

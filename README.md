@@ -18,6 +18,7 @@ https://github.com/chxm1023/Rewrite
 https://github.com/chxm1023/Rewrite/tree/main
 
 由于作者发布的是集合模块，会与自己在使用的部分软件冲突，所以选择需要的出来使用。
+
 ——————————————
 
 自用解锁类：一刻相册、墨迹天气、扫描全能王、挖财记账、iTunes解锁系列、Revenuecat解锁系列

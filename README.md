@@ -11,7 +11,7 @@ https://yfamily.vercel.app/shadowrocket.html
 
 自用解锁类：灵感足迹、mix相机、B612咔叽、美图秀秀
 
-自用去广告：微信公众号去广告、微博去广告、Youtube去广告
+自用去广告：微信公众号去广告、微博去广告、Youtube去广告、APP启动页去广告ultra+
 
 # chxm1023
 https://github.com/chxm1023/Rewrite

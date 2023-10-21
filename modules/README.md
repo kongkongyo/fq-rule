@@ -2,6 +2,7 @@
 适合自己的，才是最好的。
 # 收集整理
 [指南针显示经纬度](https://api.boxjs.app/shadowrocket/install?module=https://raw.githubusercontent.com/kongkongyo/Shadowrocket/main/modules/zhinanzhen.sgmodule "指南针显示经纬度")
+安装之后，需开关一次飞行模式，方可使用。
 # deezertidal
 https://github.com/deezertidal/shadowrocket-rules
 

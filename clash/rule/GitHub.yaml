@@ -35,4 +35,4 @@ payload:
   - DOMAIN-SUFFIX,rawgithub.com
   - DOMAIN-SUFFIX,repo.new
   - DOMAIN-SUFFIX,thegithubshop.com
-#  - DOMAIN-KEYWORD,github
+  - DOMAIN-KEYWORD,github

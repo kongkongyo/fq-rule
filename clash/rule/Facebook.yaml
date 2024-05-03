@@ -552,8 +552,8 @@ payload:
   - DOMAIN-SUFFIX,yogalayout.com
   - DOMAIN-SUFFIX,zuckerberg.com
   - DOMAIN-SUFFIX,zuckerberg.net
-#  - DOMAIN-KEYWORD,facebook
-#  - DOMAIN-KEYWORD,fbcdn
+  - DOMAIN-KEYWORD,facebook
+  - DOMAIN-KEYWORD,fbcdn
   - IP-CIDR,108.168.176.192/26,no-resolve
   - IP-CIDR,108.168.177.0/27,no-resolve
   - IP-CIDR,108.168.180.96/27,no-resolve

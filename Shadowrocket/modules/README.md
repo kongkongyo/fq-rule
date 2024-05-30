@@ -6,7 +6,8 @@
 # deezertidal
 https://github.com/deezertidal/shadowrocket-rules
 
-https://yfamily.vercel.app/shadowrocket.html
+https://whatshub.top/shadowrocket
+
 
 可直接搜索需要的模块下载。
 

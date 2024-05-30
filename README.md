@@ -8,9 +8,9 @@
 
 # 分流规则参考项目
 
-https://github.com/ACL4SSR/ACL4SSR
-
 https://github.com/Loyalsoldier/clash-rules
+
+https://github.com/ACL4SSR/ACL4SSR/tree/master
 
 https://github.com/blackmatrix7/ios_rule_script
 

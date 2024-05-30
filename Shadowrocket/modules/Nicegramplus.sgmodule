@@ -1,0 +1,20 @@
+#!name=Nicegram
+#!desc=Nicegram会员解锁
+
+#!homepage=https://github.com/chxm1023/Script_X
+#!author=chxm1023
+
+[Script]
+
+#************************************#
+# Nicegram
+# hostname = restore-access.indream.app
+#^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\d{5,10} url echo-response text/json echo-response https://raw.githubusercontent.com/chxm1023/Rewrite/main/Nicegram.js
+# Nicegram-兼容新旧版
+^https?:\/\/(nicegram\.cloud\/api\/v\d\/user\/info|restore-access\.indream\.app\/restoreAccess) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/nicegram.js
+
+
+
+[MITM]
+
+hostname = %APPEND% restore-access.indream.app

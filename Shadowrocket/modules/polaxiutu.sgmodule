@@ -1,0 +1,18 @@
+#!name=K-泼辣修图
+#!desc=泼辣修图会员解锁
+
+#!homepage=https://github.com/chxm1023/Script_X
+#!author=chxm1023
+
+[Script]
+
+#************************************#
+# 泼辣修图
+# hostname = api.polaxiong.com
+泼辣修图 = type=http-response,pattern=^https?:\/\/api\.polaxiong\.com\/.+\/payments\/(profiles\/.+\/subscription|appleiap\/receipts\/confirmation),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/pola.js
+
+
+
+[MITM]
+
+hostname = %APPEND% api.polaxiong.com

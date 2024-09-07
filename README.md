@@ -25,6 +25,8 @@ chxm1023：https://github.com/chxm1023/Rewrite
 
 deezertidal：https://github.com/deezertidal/shadowrocket-rules
 
+Script-Hub：https://github.com/Script-Hub-Org/Script-Hub
+
 解锁完整的Apple功能和集成服务
 
 https://github.com/VirgilClyne/iRingo

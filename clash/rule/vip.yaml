@@ -1,0 +1,7 @@
+# NAME: vip
+# 排第一，使用最优质线路
+payload:
+  - DOMAIN-SUFFIX,thinkany.ai
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,genspark.ai
+  

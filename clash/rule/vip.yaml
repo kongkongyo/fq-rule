@@ -1,6 +1,0 @@
-
-#规则第一行，使用最优线路
-payload:
-  - DOMAIN-SUFFIX,perplexity.ai
-  - DOMAIN-SUFFIX,thinkany.ai
-  - DOMAIN-SUFFIX,genspark.ai

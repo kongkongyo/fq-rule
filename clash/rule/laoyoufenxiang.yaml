@@ -1,0 +1,2 @@
+proxies:
+  - {name: linux.do, server: 67.230.166.240, port: 21499, reality-opts: {public-key: hKS0mCbYpZxV8-___Rukszp3lOqbpFkSwrZlGcJhKnA, short-id: 61632773c7}, client-fingerprint: chrome, type: vless, uuid: 4e999bcb-78e6-4491-812f-c35649f81deb, tls: true, tfo: false, skip-cert-verify: false, servername: yahoo.com, network: tcp}
